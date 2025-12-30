@@ -1,7 +1,7 @@
 import bpy
 op = bpy.context.active_operator
 
-op.filepath = 'C:\\Users\\lazys\\Documents\\Project Zomboid Modding\\Mods\\Spongie Hair\\Mikasa.glb'
+op.filepath = ''
 op.export_import_convert_lighting_mode = 'SPEC'
 op.gltf_export_id = ''
 op.export_use_gltfpack = False
